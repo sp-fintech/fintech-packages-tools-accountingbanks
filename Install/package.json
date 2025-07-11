@@ -1,0 +1,44 @@
+{
+	"name" : "AccountingBanks",
+	"display_name" : "Fintech Accounting Banks",
+	"description" : "<p>Accounting books package to manage banks</p>",
+	"module_type" : "packages",
+	"app_type" : "fintech",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-packages-tools-accountingbanks",
+	"class" : "Apps\\Fintech\\Packages\\Accounting\\Banks\\AccountingBanks",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.14",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : [],
+		"middlewares" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"settings" : []
+}
